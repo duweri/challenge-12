@@ -1,4 +1,17 @@
-ACCEPTANCE CRITERIA:
+# Danielle and Co Employee Tracker
+
+## Description 
+
+This weeks challenge was to create an SQL database tracker that manages a companies employee database using Node.jsm Inquirer and MySQL
+
+## User Story
+
+AS A business owner
+I WANT to be able to view and manage the departments, roles, and employees in my company
+SO THAT I can organize and plan my business
+
+
+## Acceptance Criteria
 
 GIVEN a command-line application that accepts user input
 WHEN I start the application
@@ -17,3 +30,6 @@ WHEN I choose to add an employee
 THEN I am prompted to enter the employee’s first name, last name, role, and manager, and that employee is added to the database
 WHEN I choose to update an employee role
 THEN I am prompted to select an employee to update and their new role and this information is updated in the database
+
+## Walkthrough video link 
+https://drive.google.com/file/d/17nm3hcchffmkTMcAzuKvCfBytWx86lpI/view

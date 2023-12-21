@@ -1,6 +1,6 @@
 const insquirer = require("inquirer");
 const mysql = require("mysql2");
-// const cfonts = require("cfonts");
+const cfonts = require("cfonts");
 
 //create mysql connection 
 
@@ -19,20 +19,20 @@ connection.connect((err) => {
     start();
 });
 
-// cfonts.say("Danielle and Co Employee Tracker", {
-//     font: "block",
-//     align: "left",
-//     colors: ["blue"],
-//     background: "transparent",
-//     letterSpacing: 1,           // define letter spacing
-// 	lineHeight: 1,              // define the line height
-// 	space: true,                // define if the output text should have empty lines on top and on the bottom
-// 	maxLength: '0',             // define how many character can be on one line
-// 	gradient: false,            // define your two gradient colors
-// 	independentGradient: false, // define if you want to recalculate the gradient for each new line
-// 	transitionGradient: false,  // define if this is a transition between colors directly
-// 	env: 'node'
-// });
+cfonts.say("Danielle and Co Employee Tracker", {
+    font: "block",
+    align: "left",
+    colors: ["blue"],
+    background: "transparent",
+    letterSpacing: 1,           // define letter spacing
+	lineHeight: 1,              // define the line height
+	space: true,                // define if the output text should have empty lines on top and on the bottom
+	maxLength: '0',             // define how many character can be on one line
+	gradient: false,            // define your two gradient colors
+	independentGradient: false, // define if you want to recalculate the gradient for each new line
+	transitionGradient: false,  // define if this is a transition between colors directly
+	env: 'node'
+});
 
 //function to start application
 function start() {
